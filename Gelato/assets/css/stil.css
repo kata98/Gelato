@@ -1,0 +1,962 @@
+@font-face{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+*{
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.cleaner{
+	clear: both;
+}
+
+#funkcuionalnosti{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#sort{
+	width: 50%;
+}
+
+#filtriranje{
+	float: right;
+	width: 50%;
+}
+
+#filter {
+	width: 40%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+}
+
+#sortiranje{
+	background-color: white;
+	color: black;;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	border: 2px solid black;
+}
+
+#nav{
+	width: 100%;
+	background-color: #2A2A2A;
+	min-height: 45px;
+	text-align: center;
+}
+
+#vreme p{
+	padding-top: 13px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slajder{
+	width: 100%;
+	margin: 0px auto;
+	min-height: 400px;
+	background-color: #B1EDD6;
+	/*background-color: #FFC0AC;*/
+	/*background-color: #C9ACDC;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#meni{
+	float: left;
+	
+}
+
+.lista{
+	padding-left: 30px;
+	padding-top: 25px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lista a{
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	display: inline-block;
+    padding: 10px;
+    color: #2F2E2E;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#meni ul li a:hover{
+	color: #8E8E8E;
+	transition: 0.5s;
+}
+
+#naziv{
+	text-align:center;
+	width: 10%;
+	padding-top: 17px;
+	
+}
+
+
+h1{
+	text-decoration: none;
+    font-weight: bold;
+	padding-top: 7px;
+	padding-left: 20px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	color: #2F2E2E;
+	margin: 0px auto;
+	font-size: 40px;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+#naslov{
+	position: absolute;
+	left: 450px;
+	/*left: 630px;*/
+	top: 200px;
+	text-align: center;
+	
+}
+
+#naslov p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	
+
+}
+
+#naslov h2{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 20px;
+	font-size: 130px;
+	
+}
+
+#meni{
+	float: left;
+	
+}
+
+.lista{
+	padding-left: 30px;
+	padding-top: 25px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lista a{
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	display: inline-block;
+    padding: 10px;
+    color: #2F2E2E;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#meni ul li a:hover{
+	color: #8E8E8E;
+	transition: 0.5s;
+}
+
+#naziv{
+	text-align:center;
+	width: 10%;
+	padding-top: 25px;
+}
+
+
+h1{
+	text-decoration: none;
+    font-weight: bold;
+	padding-top: 7px;
+	padding-left: 20px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	color: #2F2E2E;
+	margin: 0px auto;
+	font-size: 40px;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+#naslov2{
+	position: absolute;
+	left: 530px;
+	/*left: 730px;*/
+	top: 200px;
+	text-align: center;
+	
+}
+
+#naslov2 p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	
+
+}
+
+#naslov2 h2{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 20px;
+	font-size: 130px;
+	
+}
+
+#meni{
+	float: left;
+	
+}
+
+.lista{
+	padding-left: 30px;
+	padding-top: 25px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lista a{
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	display: inline-block;
+    padding: 10px;
+    color: #2F2E2E;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#meni ul li a:hover{
+	color: #8E8E8E;
+	transition: 0.5s;
+}
+
+#naziv{
+	text-align:center;
+	width: 10%;
+	padding-top: 25px;
+}
+
+
+h1{
+	text-decoration: none;
+    font-weight: bold;
+	padding-top: 7px;
+	padding-left: 20px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	color: #2F2E2E;
+	margin: 0px auto;
+	font-size: 40px;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+#naslov3{
+	position: absolute;
+	left: 530px;
+	/*left: 730px;*/
+	top: 200px;
+	text-align: center;
+	
+}
+
+#naslov3 p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	
+
+}
+
+#naslov3 h2{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 20px;
+	font-size: 130px;
+	
+}
+
+
+#futer{
+	width: 100%;
+	background-color: black;
+	min-height: 250px;
+	margin-top: -4px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#levo{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#desno{
+	float: right;
+	width: 50%;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#levo h3{
+	
+	color: white;
+}
+
+#desno h3{
+	
+	color: white;
+}
+
+#levo p{
+	color: white;
+	padding-top: 50px;
+}
+
+#desno p{
+	color: white;
+	padding-top: 40px;
+	
+	
+}
+
+#fafa{
+	padding-top: 15px;
+	
+	
+	
+}
+
+.fa{
+	display: flex;
+    
+    background-color: white;
+	border-radius: 50%;
+	
+	padding: 7px;
+	color: black;
+	width: 30px;
+	height: 30px;
+	
+	
+	
+}
+
+#proba1{
+	background-image: url('../assets/../images/monohrom1.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+	min-height: 300px;
+	margin-top: -4px;
+}
+
+#proba2{
+	background-image: url('../assets/../images/monohrom3.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+	min-height: 300px;
+	
+}
+
+#proba3{
+	background-image: url('../assets/../images/monohrom2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+	min-height: 300px;
+	
+}
+
+#proba4{
+	background-image: url('../assets/../images/monohrom4.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+	min-height: 300px;
+
+}
+
+#futer{
+	width: 100%;
+	background-color: black;
+	min-height: 250px;
+	margin-top: -4px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+
+#info{
+	width: 60%;
+	float: left;
+	padding-left: 70px;
+	padding-top: 25px;
+}
+
+#levo{
+	float: left;
+	width: 50%;
+	text-align: center;
+	
+}
+
+#desno{
+	float: right;
+	width: 50%;
+	text-align: center;
+	
+}
+
+#levo h3{
+	
+	color: white;
+}
+
+#desno h3{
+	
+	color: white;
+}
+
+#levo p{
+	color: white;
+	padding-top: 40px;
+}
+
+#desno p, #forma p{
+	color: white;
+	padding-top: 40px;
+	
+	
+}
+
+#forma{
+	padding-top: 35px;
+	width: 40%;
+	float: right;
+	margin-top: 10px;
+}
+
+#forma .prijava{
+	width: 60%;
+}
+
+#forma h3{
+	
+	color: white;
+}
+
+.prijava{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	border: 2px solid white;
+}
+
+.prijava:hover{
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+	
+	
+}
+
+.mejl{
+	margin-bottom:5px;
+	width: 60%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	
+	
+}
+
+
+/*BOOKING CSS*/
+
+#sredina{
+	
+	width: 60%;
+	min-height: 450px;
+	
+}
+
+#booking{
+	
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	
+	
+}
+
+#booking1{
+	width: 50%;
+	float: left;
+}
+
+#booking2{
+	width: 50%;
+	float: right;
+}
+
+#login{
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 100px;
+}
+
+#loginNow{
+	width: 50%;
+}
+
+.ime{
+	margin-bottom:5px;
+	width: 95%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	
+}
+
+.prezime{
+	margin-bottom:5px;
+	width: 95%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	
+}
+
+.datum{
+	margin-bottom:5px;
+	width: 95%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	
+}
+
+.lozinka{
+	margin-bottom:5px;
+	width: 95%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	
+}
+
+.prijava1{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	border: 2px solid black;
+	width: 95%;
+}
+
+.prijava1:hover{
+	background-color: white;
+	color: black;
+	transition: 0.7s;
+}
+
+.mejl1{
+	margin-bottom:5px;
+	width: 95%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+}
+
+.loginButton{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	border: 2px solid black;
+	width: 95%;
+}
+
+.loginButton:hover{
+	background-color: white;
+	color: black;
+	transition: 0.7s;
+}
+
+
+#najboljiSladoled{
+	width: 60%;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 60px;
+}
+
+#najboljiSladoled h3{
+	font-size: 40px;
+}
+
+#najboljiSladoled h4{
+	padding-top: 20px;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+
+/*OUR FLAVOURS CSS*/
+
+#ulogovanMeni{
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 70px;
+	margin: 0px auto;
+	/*width: 1200px;
+	max-width: 100%;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#ulogovanMeni h4{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	width: 100%;
+	padding-bottom: 80px;
+	color: #2F2E2E;
+}
+
+.goTo{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 10px 25px;
+	border: 2px solid black;
+	width: 100%;
+}
+
+.goTo:hover{
+	background-color: #B1EDD6;
+	color: black;
+	transition: 0.7s;
+	border: 2px solid white;
+	font-weight: bolder;
+}
+
+#insertProizvod{
+	 text-align: center;
+	 width: 20%;
+	 padding-top: 50px;
+	 padding-bottom: 20px;
+ }
+
+#insertKorisnik{
+	text-align: center;
+	width: 20%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+.update, .delete{
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 5px 15px;
+	border: 2px solid black;
+	width: 23%;
+}
+
+.nazivP, .cenaP, .opisP{
+	width: 30%;
+	padding: 5px 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+}
+
+.nazivI, .cenaI, .opisI{
+	width: 70%;
+	padding: 5px 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+}
+
+#updateProizvoda{
+	padding-bottom: 10px;
+}
+
+#insertI{
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 5px 15px;
+	border: 2px solid black;
+	width: 100%;
+}
+
+.delete:hover{
+	background-color: #BAE2FA;
+	color: black;
+	transition: 0.7s;
+	border: 2px solid white;
+	font-weight: bolder;
+}
+
+#insertUser{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 5px 15px;
+	border: 2px solid black;
+	width: 100%;
+	float: left;
+}
+
+#insertUser:hover{
+	background-color: #BAE2FA;
+	color: black;
+	transition: 0.7s;
+	border: 2px solid white;
+	font-weight: bolder;
+}
+
+.update:hover{
+	 background-color: #BAE2FA;
+	 color: black;
+	 transition: 0.7s;
+	 border: 2px solid white;
+	 font-weight: bolder;
+ }
+
+#insertI:hover{
+	background-color: #BAE2FA;
+	color: black;
+	transition: 0.7s;
+	border: 2px solid white;
+	font-weight: bolder;
+}
+
+#menu, #menuAdmin{
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 30px;
+	margin: 0px auto;
+	/*width: 1200px;
+	max-width: 100%;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#menu h3, #menuAdmin h3{
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+#menu h4, #menuAdmin h4{
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+
+#menu p, #menuAdmin p{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.artikl{
+	width: 50%;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#pictures1{
+	
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 70px;
+	
+	
+}
+
+#pictures1 .aktivna1{
+	width: 100%;
+}
+
+#pictures1 .aktivna1 img{
+	width: 100%;
+}
+
+/*ABOUT CSS*/
+
+
+#autor{
+	width: 100%;
+	margin: 0px auto;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#autor img{
+	float: left;
+	padding-left: 150px;
+}
+
+#autor h2{
+	font-family: 'Satisfy', cursive;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	
+}
+
+#oAutoru{
+	text-align: center;
+	padding-right: 50px;
+}
+
+#korisnici{
+	width: 70%;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#tabela {
+	font-family: 'Fjalla One', sans-serif;
+	width: 100%;
+	text-align: left;
+	padding: 10px 20px;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+#tabela a {
+	text-decoration: none;
+	color: black;
+}
+
+#tabela a:hover {
+	color: #BAE2FA;
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+}
+
+#tabela th {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #BAE2FA;
+	border-bottom: 1px solid;
+	padding: 5px;
+	font-weight: lighter;
+}
+
+#tabela tr {
+	padding: 10px;
+}
+
+@media only screen and (max-width: 1366px){
+	#menu{
+		width: 1200px;
+	    max-width: 100%;
+	}
+	
+	#naslov3{
+		left: 730px;
+	}
+	
+	#naslov2{
+		left: 730px;
+	}
+	
+	#naslov{
+		left; 630px;
+	}
+	
+	
+}
+

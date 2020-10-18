@@ -1,0 +1,550 @@
+@font-face{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+*{
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.cleaner{
+	clear: both;
+}
+
+#nav{
+	width: 100%;
+	background-color: #2A2A2A;
+	min-height: 45px;
+	text-align: center;
+}
+
+#vreme p{
+	padding-top: 13px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slajder{
+	width: 100%;
+	margin: 0px auto;
+	min-height: 500px;
+	background-color: #FFE07C;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#meni{
+	float: left;
+	
+}
+
+.lista{
+	padding-left: 30px;
+	padding-top: 25px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lista a{
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	display: inline-block;
+    padding: 10px;
+    color: #2F2E2E;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#meni ul li a:hover{
+	color: #8E8E8E;
+	transition: 0.5s;
+}
+
+#naziv{
+	text-align:center;
+	width: 10%;
+	padding-top: 20px;
+}
+
+
+h1{
+	text-decoration: none;
+    font-weight: bold;
+	padding-top: 7px;
+	padding-left: 20px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	color: #2F2E2E;
+	margin: 0px auto;
+	font-size: 40px;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+#fafa{
+	padding-top: 15px;
+	
+	
+	
+}
+
+.fa{
+	display: flex;
+    
+    background-color: white;
+	
+	border-radius: 50%;
+	
+	padding: 7px;
+	color: black;
+	width: 30px;
+	height: 30px;
+	
+	
+	
+}
+
+#centarHome{
+	text-align: center;
+	padding-top: 30px;
+}
+
+#logo{
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+#naslovHome{
+	position: absolute;
+	left: 430px;
+	/*left:600px;*/
+	top: 400px;
+	
+}
+
+#centarHome p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	
+
+}
+
+#centarHome h2{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 20px;
+	font-size: 130px;
+	
+}
+
+#drugi{
+	width: 100%;
+	margin: 0px auto;
+	
+	
+}
+
+
+
+#text{
+	float: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 45%;
+	/*width: 50%*/
+	padding-right: 30px;
+	text-align: center;
+	
+	
+}
+
+#text h3{
+	font-weight: 400;
+    font-size: 40px;
+	color: #2F2E2E;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#text h4{
+    font-weight: bold;
+    font-size: 25px;
+	padding-bottom: 30px;
+	color: #2F2E2E;
+	font-family: 'Satisfy', cursive;
+}
+
+#text p{
+	word-wrap: break-word;
+	
+	font-style: normal;
+    font-size: 20px;
+	color: #2F2E2E;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#sakriveno{
+	display: none;
+}
+
+#sakriveno1{
+	display: none;
+}
+
+#dugme1{
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	background-color: white;
+	border: 1px solid #FFC0AC;
+	padding: 7px 20px;
+	
+}
+
+
+#dugme1:hover{
+	background-color: #FFC0AC;
+	color: white;
+	transition: 0.5s;
+	
+	border: 1px solid #FFC0AC;
+}
+
+ #dugme:hover{
+	background-color: #B1EDD6;
+	color: white;
+	transition: 0.5s;
+	
+	border: 1px solid #B1EDD6;
+}
+
+#dugme{
+	border: 1px solid #B1EDD6;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	background-color: white;
+	
+	padding: 7px 20px;
+}
+
+
+#treci{
+	width: 100%;
+	margin-top: -4px;
+	min-height: 350px;
+	
+	background-color: #B1EDD6;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+	
+
+
+#tekst {
+	position: absolute;
+	left: 470px;
+	
+	/*left: 650px;*/
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+#tekst p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	
+
+}
+
+#tekst h2{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 20px;
+	font-size: 100px;
+}
+
+#cetvrti{
+	width: 100%;
+	margin: 0px auto;
+	
+	
+}
+
+#text2{
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 45%;
+	/*width: 50%;*/
+	padding-left: 60px;
+	padding-left: 30px;
+	text-align: center;
+	
+	
+}
+
+#text2 h3{
+	font-weight: 400;
+    font-size: 40px;
+	color: #2F2E2E;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#text2 h4{
+    font-weight: bold;
+    font-size: 25px;
+	padding-bottom: 30px;
+	color: #2F2E2E;
+	font-family: 'Satisfy', cursive;
+}
+
+#text2 p{
+	word-wrap: break-word;
+	font-style: normal;
+    font-size: 20px;
+	color: #2F2E2E;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+#slika2{
+	float: right;
+}
+
+#kaver{
+	width: 100%;
+	margin-top: -4px;
+	min-height: 350px;
+	
+	background-color: #FFC0AC;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#tekst2{
+	position: absolute;
+	margin: 0px auto;
+	left: 580px;
+	/*left: 770px;*/
+	text-align: center;
+	padding-top: 100px;
+}
+
+#tekst2 p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	
+
+}
+
+#tekst2 h2{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 20px;
+	font-size: 100px;
+}
+
+#pictures{
+	
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 150px;
+	
+	
+}
+
+#pictures .aktivna{
+	width: 100%;
+}
+
+#pictures .aktivna img{
+	width: 100%;
+}
+
+.sakrivena{
+	display: none;
+	width: 100%;
+}
+
+.sakrivena img{
+	width: 100%;
+}
+
+#proba{
+	
+	background-image: url('../assets/../images/monohrom1.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+	height: 700px;
+}
+
+#logo1{
+	text-align: center;
+	position: relative;
+	right: 185px;
+	/*right: 10px;*/
+	top: -170px;
+
+}
+
+#futer{
+	width: 100%;
+	background-color: black;
+	min-height: 250px;
+	margin-top: -4px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+
+#info{
+	width: 60%;
+	float: left;
+	padding-left: 70px;
+	padding-top: 25px;
+}
+
+#levo{
+	float: left;
+	width: 50%;
+	text-align: center;
+	
+}
+
+#desno{
+	float: right;
+	width: 50%;
+	text-align: center;
+	
+}
+
+#levo h3{
+	
+	color: white;
+}
+
+#desno h3{
+	
+	color: white;
+}
+
+#levo p{
+	color: white;
+	padding-top: 40px;
+}
+
+#desno p{
+	color: white;
+	padding-top: 40px;
+	
+	
+}
+
+#forma{
+	padding-top: 25px;
+	width: 40%;
+	float: right;
+	
+}
+
+#forma .prijava{
+	width: 60%;
+}
+
+#forma h3{
+	
+	color: white;
+}
+
+.prijava{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	border: 2px solid white;
+}
+
+.prijava:hover{
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+	
+	
+}
+
+.mejl{
+	margin-bottom:5px;
+	width: 60%;
+	background-color: white;
+	color: gray;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	padding: 7px 20px;
+	
+	
+}
+
+@media only screen and (max-width: 1366px){
+	#logo1{
+		right: 10px;
+	}
+
+	#tekst2{
+		left: 770px;
+	}
+	
+	#text2{
+		width: 50%;
+	}
+	
+	#tekst {
+		left: 650px;
+	}
+	
+	#text{
+		width: 50%
+	}
+	
+	#naslov{
+		left:600px;
+	}
+}
+
+	
+	
+	
+	
+	
+
+
